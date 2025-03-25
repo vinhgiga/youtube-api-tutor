@@ -7,7 +7,7 @@
     git clone https://github.com/vinhgiga/youtube-api-tutor.git
     ```
 
-3. Navigate to the project directory, you can install all the dependencies using `uv`:
+3. Navigate to the project directory, you can install all the dependencies using [uv](https://docs.astral.sh/uv):
     ```bash
     cd youtube-api-tutor
     uv sync
@@ -27,7 +27,7 @@
     echo 'YOUTUBE_API_KEY = your_api_key' > .env
     ```
 
-6. Place client_secret.json in the root directory.
+6. Place `client_secret.json` in the root directory.
 
 7. Run the application:
 
